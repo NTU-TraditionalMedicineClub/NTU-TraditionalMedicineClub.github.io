@@ -5,6 +5,11 @@
 * License: https://bootstrapmade.com/license/
 */
 
+/*顏色選擇
+main color: #59544A(咖啡) #EEDBBB(皮膚色)
+subcolor: #20646e(深綠色) #40a5b4(淺一點的綠色) #fad18b(微金色) #FFC365(金橙色) 灰色隨意
+*/
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -17,7 +22,7 @@ body {
 }
 
 a {
-  /*color: #2dc997;*/
+  /*color: #20646e;*/
   text-decoration: none;
 }
 
@@ -49,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2dc997;
+  background: #20646e;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -63,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #49d6a9;
+  background: #40a5b4;
   color: #fff;
 }
 
@@ -180,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #2dc997;
+  background-color: #40a5b4;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -226,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #2dc997;
+  color: #40a5b4;
 }
 
 .navbar .dropdown:hover > ul {
@@ -324,7 +329,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #2dc997;
+  color: #40a5b4;
 }
 
 .navbar-mobile .getstarted {
@@ -356,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #2dc997;
+  color: #40a5b4;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -473,7 +478,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 68px;
   text-transform: uppercase;
-  color: #EEDBBB;
+  color: #ffffff;
 }
 
 @media (min-width: 1450px) {
@@ -507,7 +512,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #eee;
+  color: #20646e;
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -536,8 +541,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #2dc997; /*確認*/
-  border: 2px solid #2dc997; /*確認*/
+  background: #40a5b4; /*確認*/
+  border: 2px solid #40a5b4; /*確認*/
 }
 
 @media (min-width: 700px) {
@@ -750,7 +755,7 @@ section {
 }
 
 .questionStyle1 .clicked {
-  background: #2dc997;
+  background: #20646e;
   border: 2px solid #ffffff;
   color: #fff;
 }
@@ -801,14 +806,14 @@ section {
 }
 
 .questionStyle2 .clicked {
-  background: #2dc997;
+  background: #20646e;
   border: 2px solid #ffffff;
   color: #fff;
 }
 
 .choice-btn:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
+  background: #40a5b4;
+  border: 2px solid #40a5b4;
   color: #fff;
   transform: scale(1.05, 1.1);
 }
@@ -861,7 +866,7 @@ section {
   font-size: 34px;
   /*font-family: 'Noto Serif TC', serif;*/
   text-shadow: 0.1em 0.1em 0.2em #CCF1E7;
-  color: #2dc997;
+  color: #40a5b4;
   text-transform: uppercase;
   text-align: center;
   font-weight: 780;
@@ -1034,7 +1039,7 @@ section {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #2dc997;
+  background: #20646e;
 }
 
 #services .icon a {
@@ -1049,15 +1054,15 @@ section {
 
 #services .box:hover .icon {
   background: #fff;
-  border: 2px solid #2dc997;
+  border: 2px solid #40a5b4;
 }
 
 #services .box:hover .icon i {
-  color: #2dc997;
+  color: #40a5b4;
 }
 
 #services .box:hover .icon a {
-  color: #2dc997;
+  color: #40a5b4;
 }
 
 #services .title {
@@ -1325,11 +1330,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #2dc997;
+  border: 1px solid #20646e;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #2dc997;
+  background-color: #20646e;
 }
 
 .portfolio-details .portfolio-info {
@@ -1412,7 +1417,7 @@ section {
 }
 
 #team .member .social a:hover {
-  color: #2dc997;
+  color: #40a5b4;
 }
 
 #team .member .social i {
@@ -1438,7 +1443,7 @@ section {
 
 #contact .info i {
   font-size: 32px;
-  color: #2dc997;
+  color: #20646e;
   float: left;
   line-height: 0;
 }
@@ -1478,7 +1483,7 @@ section {
 }
 
 #contact .social-links a:hover {
-  background: #2dc997;
+  background: #40a5b4;
   color: #fff;
 }
 
@@ -1518,7 +1523,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #20646e;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1531,11 +1536,11 @@ section {
 }
 
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #2dc997;
+  background-color: #40a5b4;
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #2dc997;
+  background: #20646e;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1543,7 +1548,7 @@ section {
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-  background: #51d8ad;
+  background: #40a5b4;
 }
 
 @-webkit-keyframes animate-loading {
